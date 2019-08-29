@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/desc_img"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,19 +26,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/desc_img" />
 
+    <TextView
+        android:id="@+id/des_txt"
+        android:layout_width="104dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="108dp"
+        android:gravity="center"
+        android:text="Description"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_height" />
 
     <TextView
         android:id="@+id/txt_desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="428dp"
+        android:layout_marginTop="552dp"
         android:layout_marginEnd="8dp"
-        android:scrollbars="vertical"
         android:gravity="center"
-        android:textSize="18sp"
         android:lines="4"
+        android:scrollbars="vertical"
         android:text="The final of three forms, Charizard evolved from Charmeleon, who evolved from Charmander, one of the three starter Pokémon in Pokémon Red/Blue. Charizard takes on the flying type in addition to Charmeleon's fire type, it's wings having fully developed to allow it to remain aloft. Powerful in its own right, with the use of special moves such as rock smash, Charizard is a force to be reckoned with."
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -56,38 +66,56 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_name" />
 
     <TextView
-        android:id="@+id/txt_ability"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:id="@+id/ab_txt"
+        android:layout_width="67dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="264dp"
         android:gravity="center"
+        android:text="Ability"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_ability"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:lines="3"
+        android:scrollbars="vertical"
+        android:text="demo"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_type" />
 
     <TextView
         android:id="@+id/txt_height"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:gravity="center"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/txt_weight"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_weight"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954" />
+        app:layout_constraintVertical_bias="0.946" />
 
     <TextView
         android:id="@+id/txt_weight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="341dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="432dp"
         android:gravity="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
