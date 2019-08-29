@@ -14,7 +14,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/pimage"/>
+        android:src="@drawable/pokemon_logo"/>
 
     <TextView
         android:layout_width="0dp"
@@ -22,11 +22,24 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="Hello pikachu"
-        android:textSize="22dp"
+        android:textSize="30sp"
         android:id="@+id/pName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/pImage"
         app:layout_constraintTop_toTopOf="parent"
         android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/vText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="V 1.2.0"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/pImage"
+        app:layout_constraintTop_toBottomOf="@+id/pName" />
 </androidx.constraintlayout.widget.ConstraintLayout>

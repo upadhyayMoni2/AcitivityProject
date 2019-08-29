@@ -1,6 +1,6 @@
 package com.example.acitivityproject;
 
-/*
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -74,4 +74,4 @@ public class Recyadapter extends RecyclerView.Adapter<Recyadapter.ViewHolder> {
     }
 
 }
-*/
+
